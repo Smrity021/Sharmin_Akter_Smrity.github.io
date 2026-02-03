@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Sharmin Akter Smrity - UI/UX Designer specializing in creating beautiful user experiences">
+  <title>Sharmin Akter Smrity | UI/UX Designer</title>
+  
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">Sharmin Skter Smrity</div>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero with Profile Image -->
+  <section class="hero container">
+    <div class="hero-content">
+      <div class="profile-image-container">
+        <img src="profile.jpg" alt="Sharmin Akter Smrity" class="profile-img">
+      </div>
+      <h1>Hi, I'm <span class="highlight">Sharmin Akter Smrity</span></h1>
+      <p>I am UI/UX expert. I love to solve real world problems through analysis and enhance user experience</p>
+      <a href="#projects" class="btn">View Projects and Designs</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-card">
+          <h3>Background</h3>
+          <p>
+            I am doing bachelors in software engineering and love to gain knowledge on UI/UX. Design is my passion.
+          </p>
+        </div>
+        <div class="about-card">
+          <h3>Approach</h3>
+          <p>
+            I love to think about design and as I observe various designs, I often try to use them enhanced by my own style.
+          </p>
+        </div>
+        <div class="about-card">
+          <h3>Goals</h3>
+          <p>
+            Current goal is to gain knowledge on UI/UX, practice design, clone other designs, and study the psychology behind designs.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title">Skills & Technologies</h2>
+      <div class="skills-grid">
+        <div class="skill">
+          <span class="skill-icon">🎨</span>
+          <h3>Frontend</h3>
+          <p>HTML, CSS, Java, Python, MySQL, JS, Tailwind</p>
+        </div>
+        <div class="skill">
+          <span class="skill-icon">🛠️</span>
+          <h3>Tools</h3>
+          <p>Git, VS Code, Figma, Docker</p>
+        </div>
+        <div class="skill">
+          <span class="skill-icon">💡</span>
+          <h3>Design</h3>
+          <p>UI/UX Design, Wireframing, Prototyping, User Research</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <p>I'm currently open to new opportunities and interesting projects.</p>
+          <div class="contact-links">
+            <a href="mailto:smrityse021@gmail.com" class="contact-item">
+              <span class="contact-icon">📧</span>
+              <span>smrityse021@gmail.com</span>
+            </a>
+            <a href="https://github.com/smrity021" target="_blank" class="contact-item">
+              <span class="contact-icon">💻</span>
+              <span>github.com/smrity021</span>
+            </a>
+            <a href="https://linkedin.com" target="_blank" class="contact-item">
+              <span class="contact-icon">👔</span>
+              <span>linkedin.com/in/sharmin-smrity</span>
+            </a>
+          </div>
+        </div>
+        <form class="contact-form">
+          <h3>Send me a message</h3>
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea placeholder="Your Message" rows="4" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>© <span id="current-year">2024</span> Sharmin Akter Smrity. All rights reserved.</p>
+      <p class="footer-note">Built with ❤️ using HTML & CSS</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript for current year -->
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
